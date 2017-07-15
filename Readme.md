@@ -24,7 +24,7 @@ connected clients.
 
 ```
 curl -X POST -d '{"build": {"status": "error"}}' -H "Content-Type: application/json" localhost:8080
-´´´
+```
 
 ## Payload
 
@@ -32,8 +32,8 @@ It is required that the passed data has the following fields:
 
 ```json
 {
-    build: {
-        status: "error"
+    "build": {
+        "status": "error"
     }
 }
 ```
