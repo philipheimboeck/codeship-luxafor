@@ -1,0 +1,17 @@
+{
+  "name": "codeship-light",
+  "version": "1.0.0",
+  "description": "Turns on luxafor when codeship triggers a failure",
+  "main": "index.js",
+  "author": "Philip Heimböck",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:philipheimboeck/codeship-luxafor.git"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "luxafor-api": "^2.0.0",
+    "websocket": "^1.0.24"
+  }
+}
